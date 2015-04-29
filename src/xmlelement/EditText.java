@@ -1,22 +1,20 @@
 package xmlelement;
 
-/**
- * Created by poojap on 27/04/15.
- */
-public class EditText implements LabelOnly, HintOnly {
+public class EditText extends Xml {
     private Label label;
     private String hint;
 
-    public EditText(Label label, String hint) {
+    public EditText(String id,Label label, String hint) {
+        super(id);
         this.label = label;
         this.hint = hint;
     }
 
-    public Label getLabel() {
-        return label;
-    }
-
-       public String getHint() {
-        return hint;
-    }
+//    public Label getLabel() {
+//        return label;
+//    }
+//
+//      public String getHint() {
+//        return hint;
+//    }
 }
