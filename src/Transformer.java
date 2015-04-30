@@ -1,53 +1,42 @@
-import ioselement.ButtonIo;
-import ioselement.IOsGroup;
-import ioselement.Ios;
-import ioselement.TextField;
-import xmlelement.Button;
-import xmlelement.Xml;
-import xmlelement.XmlGroup;
-import xmlelement.Label;
-
-import java.util.HashMap;
-import java.util.Map;
+import iosElement.ButtonIo;
+import iosElement.IosGroup;
+import iosElement.TextField;
+import xmlElement.Button;
+import xmlElement.XmlGroup;
+import xmlElement.Label;
 import java.util.Vector;
 
-
 public class Transformer {
-    private  Map<Xml, Ios> elementMapper = new HashMap<Xml, Ios>();
-
-    private void putData(){
-        Label label = new Label("lb1","hello");
-        TextField tf = new TextField("tf1","hello");
-        elementMapper.put(label,tf);
-        Button xmlButton = new Button("b1","OK") ;
-        ButtonIo iosButton = new ButtonIo("b1","OK") ;
-        elementMapper.put(xmlButton, iosButton);
-    }
-
-
-    public IOsGroup transform(XmlGroup xmlGroup){
-        IOsGroup group = new IOsGroup("g1");
-        Vector xmlElements = xmlGroup.getV();
-        for (Object xmlElement : xmlElements) {
-              if(xmlElement instanceof Label){
-                  TextField tf = (TextField)elementMapper.get(xmlElement);
-                  group.addElement(tf);
-              }
-              else if(xmlElement instanceof Button){
-                  ButtonIo button = (ButtonIo)elementMapper.get(xmlElement);
-                  group.addElement(button);
-              }
-        }
-        return group;
-    }
-
-    public static  void main(String[] args) {
-        Transformer tf = new Transformer();
-        tf.putData();
-        XmlGroup g1 = new XmlGroup("g1");
-        g1.addElement(new Label("lb1", "hello"));
-        g1.addElement(new Button("b1", "OK"));
-        IOsGroup group =  tf.transform(g1);
-        System.out.println(group.toString());
-    }
+//
+//    public IosGroup transform(XmlGroup xmlGroup){
+//        IosGroup group = new IosGroup(xmlGroup.getId());
+//        for (Object xmlElement : xmlElements) {
+//              if(xmlElement instanceof Label){
+//                  TextField tf = new TextField(((Label)xmlElement).getId(),((Label)xmlElement).getText());
+//                  group.addElement(tf);
+//              }
+//              else if(xmlElement instanceof Button){
+//                  ButtonIo ioButton = new ButtonIo(((Button)xmlElement).getId(),((Button)xmlElement).getText());
+//                  group.addElement(ioButton);
+//              }
+//              else if(xmlElement instanceof XmlGroup){
+//                  IosGroup iosGroup = transform((XmlGroup)xmlElement);
+//                  group.addElement(iosGroup);
+//              }
+//        }
+//        return group;
+//    }
+//
+//    public static  void main(String[] args) {
+//        Transformer tf = new Transformer();
+//        XmlGroup g1 = new XmlGroup("g1");
+//        XmlGroup g2 = new XmlGroup("g2");
+//        g2.addElement(new Label("lb2","bye"));
+//        g2.addElement(new Button("b2","cancel"));
+//        g1.addElement(new Label("lb1", "hello"));
+//        g1.addElement(new Button("b1", "OK"));
+//        g1.addElement(g2);
+//        IosGroup group =  tf.transform(g1);
+//        System.out.println(group.toString());
+//    }
 }

@@ -1,6 +1,6 @@
 package androidElement;
 
-import xmlelement.Label;
+import xmlElement.Label;
 
 /**
  * Created by poojap on 24/04/15.
