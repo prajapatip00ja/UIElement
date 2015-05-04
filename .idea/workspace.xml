@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3afce860-8d10-4774-9afb-85a27143a705" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ioselement/IosGroup.java" afterPath="$PROJECT_DIR$/src/ioselement/IosGroup.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/xmlelement/XmlGroup.java" afterPath="$PROJECT_DIR$/src/xmlelement/XmlGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/droidelement/Droid.java" afterPath="$PROJECT_DIR$/src/droidelement/Droid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/droidelement/DroidButton.java" afterPath="$PROJECT_DIR$/src/droidelement/DroidButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/droidelement/DroidGroup.java" afterPath="$PROJECT_DIR$/src/droidelement/DroidGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/droidelement/DroidGroupTest.java" afterPath="$PROJECT_DIR$/Test/droidelement/DroidGroupTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/droidelement/DroidTextView.java" afterPath="$PROJECT_DIR$/src/droidelement/DroidTextView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/ioselement/IosGroupTest.java" afterPath="$PROJECT_DIR$/Test/ioselement/IosGroupTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/xmlelement/XmlGroupTest.java" afterPath="$PROJECT_DIR$/Test/xmlelement/XmlGroupTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3afce860-8d10-4774-9afb-85a27143a705" name="Default" comment="" />
     <ignored path="spike.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,107 +63,7 @@
     <favorites_list name="spike" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UIElement.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UIElement.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ios.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ioselement/Ios.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DroidGroupTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidGroupTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="20" selection-start="8" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IosButton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ioselement/IosButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IosGroup.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ioselement/IosGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-              <folding>
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transformer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Transformer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="39" selection-start="2635" selection-end="2635" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1452">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Button.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlelement/Button.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="30" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="902">
-              <folding>
-                <element signature="e#679#680#0" expanded="false" />
-                <element signature="e#706#707#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Label.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlelement/Label.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="20" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-              <folding>
-                <element signature="e#270#271#0" expanded="false" />
-                <element signature="e#297#298#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Xml.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlelement/Xml.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="9" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Droid.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/droidelement/Droid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -187,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/HtmlElement/TextWithColor.java" />
         <option value="$PROJECT_DIR$/src/IOSElement/TextField.java" />
         <option value="$PROJECT_DIR$/src/HtmlElement/Text.java" />
         <option value="$PROJECT_DIR$/src/HtmlElement/TextColor.java" />
@@ -238,6 +126,7 @@
         <option value="$PROJECT_DIR$/Test/droidElement/DroidGroupTest.java" />
         <option value="$PROJECT_DIR$/src/Transformer.java" />
         <option value="$PROJECT_DIR$/Test/TransformerTest.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -407,6 +296,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="droidelement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIElement copy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -770,7 +673,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="940" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -788,7 +691,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13035715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13035715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26865673" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -836,16 +739,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/droidelement/DroidGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="741">
-          <folding>
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="5" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="779">
@@ -1219,6 +1112,13 @@
     <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="20" selection-start="8" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="457" column="23" selection-start="24572" selection-end="24581" vertical-scroll-proportion="12.614805" vertical-offset="0" max-vertical-offset="28798">
           <folding />
         </state>
       </provider>
