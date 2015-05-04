@@ -1,4 +1,4 @@
-package iosElement;
+package ioselement;
 
 public class IosButton extends Ios {
     private String text;

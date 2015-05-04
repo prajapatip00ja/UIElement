@@ -1,4 +1,4 @@
-package xmlElement;
+package xmlelement;
 
 public class Label extends Xml {
 

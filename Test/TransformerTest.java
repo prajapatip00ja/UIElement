@@ -1,16 +1,16 @@
-import droidElement.Droid;
-import droidElement.DroidButton;
-import droidElement.DroidGroup;
-import droidElement.DroidTextView;
-import iosElement.IosButton;
-import iosElement.Ios;
-import iosElement.IosGroup;
-import iosElement.TextField;
+import droidelement.Droid;
+import droidelement.DroidButton;
+import droidelement.DroidGroup;
+import droidelement.DroidTextView;
+import ioselement.IosButton;
+import ioselement.Ios;
+import ioselement.IosGroup;
+import ioselement.TextField;
 import org.junit.Test;
-import xmlElement.Button;
-import xmlElement.Label;
-import xmlElement.Xml;
-import xmlElement.XmlGroup;
+import xmlelement.Button;
+import xmlelement.Label;
+import xmlelement.Xml;
+import xmlelement.XmlGroup;
 
 
 import static junit.framework.Assert.assertEquals;
