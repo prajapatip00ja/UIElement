@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3afce860-8d10-4774-9afb-85a27143a705" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Transformer.java" afterPath="$PROJECT_DIR$/src/Transformer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/TransformerTest.java" afterPath="$PROJECT_DIR$/Test/TransformerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spike.iws" />
@@ -72,7 +69,7 @@
       <file leaf-file-name="TransformerTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/TransformerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="4" selection-start="4699" selection-end="4699" vertical-scroll-proportion="0.7398649" vertical-offset="1828" max-vertical-offset="2442">
+            <state line="112" column="38" selection-start="4406" selection-end="4406" vertical-scroll-proportion="0.5168919" vertical-offset="1828" max-vertical-offset="2442">
               <folding />
             </state>
           </provider>
@@ -765,7 +762,11 @@
       <created>1430632127460</created>
       <updated>1430632127460</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed in transformer element that has to be trsnsform is getting store in newElement and that newElement is getting added in a group.">
+      <created>1430730331649</created>
+      <updated>1430730331649</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -789,7 +790,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13035715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26865673" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26865673" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3244496" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -817,7 +818,8 @@
     <MESSAGE value="transformToDroid and transformDroidGroup method has been created. &#10;" />
     <MESSAGE value="transformToDroid and transformDroidGroup method has been created. &#10;DroidGroupTest has been added" />
     <MESSAGE value="transformer class is transforming the xml group to ios group&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="transformer class is transforming the xml group to ios group&#10;" />
+    <MESSAGE value="changed in transformer element that has to be trsnsform is getting store in newElement and that newElement is getting added in a group." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed in transformer element that has to be trsnsform is getting store in newElement and that newElement is getting added in a group." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1213,7 +1215,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/TransformerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="4" selection-start="4699" selection-end="4699" vertical-scroll-proportion="0.7398649" vertical-offset="1828" max-vertical-offset="2442">
+        <state line="112" column="38" selection-start="4406" selection-end="4406" vertical-scroll-proportion="0.5168919" vertical-offset="1828" max-vertical-offset="2442">
           <folding />
         </state>
       </provider>

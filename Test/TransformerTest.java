@@ -116,5 +116,5 @@ public class TransformerTest {
         DroidGroup droidGroup = (DroidGroup)group;
         assertEquals(droidGroup.toString(),"g1"+"\t"+"lb1 hello"+"\n"+"b1 ok"+"\n"+"g2"+"\t"+"lb2 hello"+"\n"+"b2 ok\n"+"\n");
     }
-    
+
 }
