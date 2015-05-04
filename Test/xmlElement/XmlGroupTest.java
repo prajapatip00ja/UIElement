@@ -1,4 +1,4 @@
-package xmlElement;
+package xmlelement;
 
 import org.junit.Test;
 
@@ -9,7 +9,7 @@ import static junit.framework.Assert.assertEquals;
 public class XmlGroupTest {
     @Test
     public void addElementIsAddingElementsToTheList(){
-      xmlElement.XmlGroup xmlGroup = new xmlElement.XmlGroup("G1");
+      xmlelement.XmlGroup xmlGroup = new xmlelement.XmlGroup("G1");
         Label label = new Label("lb1","hello");
         xmlGroup.addElement(new Label("lb1", "hello"));
         List<Object> elements = xmlGroup.getElements();
@@ -20,7 +20,7 @@ public class XmlGroupTest {
 
     @Test
     public void getIdIsGivingIdOfTheGroup(){
-        xmlElement.XmlGroup xmlGroup = new xmlElement.XmlGroup("G1");
+        xmlelement.XmlGroup xmlGroup = new xmlelement.XmlGroup("G1");
         assertEquals(xmlGroup.getId(),"G1");
     }
 

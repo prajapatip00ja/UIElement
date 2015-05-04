@@ -1,4 +1,4 @@
-package xmlElement;
+package xmlelement;
 
 import java.util.ArrayList;
 import java.util.List;

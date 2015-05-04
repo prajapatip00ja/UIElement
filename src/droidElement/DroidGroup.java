@@ -1,4 +1,4 @@
-package droidElement;
+package droidelement;
 
 import java.util.ArrayList;
 import java.util.List;

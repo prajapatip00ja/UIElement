@@ -1,7 +1,7 @@
-package iosElement;
+package ioselement;
 
 import org.junit.Test;
-import xmlElement.Label;
+import xmlelement.Label;
 
 import java.util.List;
 

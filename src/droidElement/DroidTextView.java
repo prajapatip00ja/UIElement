@@ -1,4 +1,4 @@
-package droidElement;
+package droidelement;
 
 public class DroidTextView extends Droid {
     private String text;

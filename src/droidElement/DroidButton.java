@@ -1,4 +1,4 @@
-package droidElement;
+package droidelement;
 
 public class DroidButton extends Droid {
     private String text;

@@ -1,7 +1,7 @@
-package droidElement;
+package droidelement;
 
 import org.junit.Test;
-import xmlElement.Label;
+import xmlelement.Label;
 
 import java.util.List;
 

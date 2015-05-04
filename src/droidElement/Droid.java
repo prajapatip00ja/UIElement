@@ -1,4 +1,4 @@
-package droidElement;
+package droidelement;
 
 public class Droid {
     private String id;
