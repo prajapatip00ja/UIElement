@@ -11,4 +11,8 @@ public class Xml {
     public String toString() {
         return  id;
     }
+
+    public String getId() {
+        return id;
+    }
 }

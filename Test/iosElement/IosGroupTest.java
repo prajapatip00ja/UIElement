@@ -29,7 +29,7 @@ public class IosGroupTest {
     public void toStringIsGivingStringOfAllElements(){
         IosGroup iosGroup = new IosGroup("G1");
         iosGroup.addElement(new Label("lb1","hello"));
-        assertEquals(iosGroup.toString(),"G1"+"\n"+" lb1 hello"+"\n");
+        assertEquals(iosGroup.toString(),"G1"+"\t"+"lb1 hello"+"\n");
     }
 
 
