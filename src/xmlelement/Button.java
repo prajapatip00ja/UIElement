@@ -1,4 +1,4 @@
-package xmlelement;
+package xmlElement;
 
 public class Button extends Xml {
     private String text;
@@ -25,5 +25,13 @@ public class Button extends Xml {
     @Override
     public int hashCode() {
         return text != null ? text.hashCode() : 0;
+    }
+
+    public String getId() {
+        return super.toString();
+    }
+
+    public String getText() {
+        return text;
     }
 }

@@ -1,4 +1,4 @@
-package xmlelement;
+package xmlElement;
 
 public class Label extends Xml {
 
@@ -9,6 +9,13 @@ public class Label extends Xml {
         this.text = text;
     }
 
+    public String getId(){
+        return super.toString();
+    }
+
+    public String getText(){
+        return text;
+    }
 //    public String getText() {
 //        return text;
 //    }

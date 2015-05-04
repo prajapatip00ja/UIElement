@@ -1,4 +1,4 @@
-package xmlelement;
+package xmlElement;
 
 public class Xml {
     private String id;

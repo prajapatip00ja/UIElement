@@ -1,32 +1,33 @@
-package iosElement;
+package xmlElement;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class IosGroup extends Ios{
+public class XmlGroup extends Xml{
     private List<Object> elements;
 
-    public IosGroup(String id){
+    public XmlGroup(String id){
         super(id);
         this.elements = new ArrayList<Object>();
     }
+
     public void addElement(Object element){
         elements.add(element);
     }
 
     public  String toString(){
-        String result = super.toString()+"\t";
+        String s = super.toString()+"\n";
         for (Object element : elements) {
-            result = result+""+element+"\n";
+            s = s+" "+element+"\n";
         }
-        return result;
+        return s;
     }
 
-    public List<Object> getElements(){
-        return elements;
-    }
-
-    public String getId() {
+    public String getId(){
         return super.toString();
+    }
+
+    public List<Object> getElements() {
+        return elements;
     }
 }

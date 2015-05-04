@@ -1,4 +1,4 @@
-package ioselement;
+package iosElement;
 
 public class Ios {
     private String id;

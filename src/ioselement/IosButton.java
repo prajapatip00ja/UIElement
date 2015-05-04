@@ -1,14 +1,9 @@
-package ioselement;
+package iosElement;
 
-import xmlelement.Button;
-
-/**
- * Created by poojap on 27/04/15.
- */
-public class ButtonIo extends Ios {
+public class IosButton extends Ios {
     private String text;
 
-    public ButtonIo(String id, String text) {
+    public IosButton(String id, String text) {
         super(id);
         this.text = text;
     }
@@ -17,5 +12,6 @@ public class ButtonIo extends Ios {
     public String toString() {
         return super.toString()+" "+text;
     }
+
 
 }
