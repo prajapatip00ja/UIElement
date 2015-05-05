@@ -1,6 +1,6 @@
 package droidelement;
 
-public class DroidButton{
+public class DroidButton extends DroidViewElement{
 
     private String id;
     private String text;
@@ -13,6 +13,11 @@ public class DroidButton{
     @Override
     public String toString() {
         return  id+" "+ text;
+    }
+
+    @Override
+    public void accept(DroidVisitor droidVisitor) {
+
     }
 
     public String getId() {

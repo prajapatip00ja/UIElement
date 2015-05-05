@@ -1,6 +1,6 @@
 package xmlelement;
 
-public class Button{
+public class Button extends XmlViewElement{
     private String id;
     private String text;
 
@@ -26,6 +26,11 @@ public class Button{
     @Override
     public int hashCode() {
         return text != null ? text.hashCode() : 0;
+    }
+
+    @Override
+    public void accept(XmlVisitor xmlVisitor) {
+
     }
 
     public String getId() {

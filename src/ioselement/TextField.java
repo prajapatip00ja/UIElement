@@ -1,7 +1,7 @@
 package ioselement;
 
 
-public class TextField {
+public class TextField extends IosViewElement{
     private String id;
     private String text;
 
@@ -13,6 +13,11 @@ public class TextField {
 
     public String toString() {
         return super.toString()+" "+text;
+    }
+
+    @Override
+    public void accept(IosVisitor iosVisitor) {
+
     }
 
     public String getId() {

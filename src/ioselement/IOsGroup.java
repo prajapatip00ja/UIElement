@@ -3,7 +3,7 @@ package ioselement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IosGroup {
+public class IosGroup extends IosViewElement{
     private String id;
     private List<Object> elements;
 
@@ -27,7 +27,17 @@ public class IosGroup {
         return elements;
     }
 
+    @Override
+    public void accept(IosVisitor iosVisitor) {
+
+    }
+
     public String getId() {
         return id;
+    }
+
+    @Override
+    public String getText() {
+        return null;
     }
 }

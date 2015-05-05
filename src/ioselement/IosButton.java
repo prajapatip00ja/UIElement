@@ -1,6 +1,6 @@
 package ioselement;
 
-public class IosButton {
+public class IosButton extends IosViewElement{
     private String id;
     private String text;
 
@@ -14,6 +14,11 @@ public class IosButton {
         return super.toString()+" "+text;
     }
 
+
+    @Override
+    public void accept(IosVisitor iosVisitor) {
+
+    }
 
     public String getId() {
         return id;

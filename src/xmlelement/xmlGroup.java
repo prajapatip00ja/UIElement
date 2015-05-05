@@ -3,7 +3,7 @@ package xmlelement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class XmlGroup {
+public class XmlGroup extends XmlViewElement{
     private String id;
     private List<Object> elements;
 
@@ -24,8 +24,18 @@ public class XmlGroup {
         return s;
     }
 
+    @Override
+    public void accept(XmlVisitor xmlVisitor) {
+
+    }
+
     public String getId(){
         return id;
+    }
+
+    @Override
+    public String getText() {
+        return null;
     }
 
     public List<Object> getElements() {

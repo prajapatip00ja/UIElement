@@ -1,6 +1,6 @@
 package xmlelement;
 
-public class Label{
+public class Label extends XmlViewElement{
 
     private String id;
     private String text;
@@ -8,6 +8,11 @@ public class Label{
     public Label(String id, String text) {
         this.id = id;
         this.text = text;
+    }
+
+    @Override
+    public void accept(XmlVisitor xmlVisitor) {
+
     }
 
     public String getId(){

@@ -3,7 +3,7 @@ package droidelement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DroidGroup{
+public class DroidGroup extends DroidViewElement{
     private String id;
     private List<Object> elements;
 
@@ -24,8 +24,18 @@ public class DroidGroup{
         return s;
     }
 
+    @Override
+    public void accept(DroidVisitor droidVisitor) {
+
+    }
+
     public String getId(){
         return id;
+    }
+
+    @Override
+    public String getText() {
+        return null;
     }
 
     public List<Object> getElements() {
