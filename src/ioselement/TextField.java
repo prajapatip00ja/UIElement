@@ -15,10 +15,10 @@ public class TextField extends IosViewElement{
         return super.toString()+" "+text;
     }
 
-    @Override
-    public void accept(IosVisitor iosVisitor) {
-
-    }
+//    @Override
+//    public void accept(IosVisitor iosVisitor) {
+//
+//    }
 
     public String getId() {
         return id;

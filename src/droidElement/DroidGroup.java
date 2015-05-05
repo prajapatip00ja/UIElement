@@ -25,7 +25,7 @@ public class DroidGroup extends DroidViewElement{
     }
 
     @Override
-    public void accept(DroidVisitor droidVisitor) {
+    public void accept(DroidVisitor visitor) {
 
     }
 

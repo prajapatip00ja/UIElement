@@ -1,5 +1,7 @@
 package xmlelement;
 
+import droidelement.Visitor;
+
 public class Label extends XmlViewElement{
 
     private String id;
@@ -10,9 +12,10 @@ public class Label extends XmlViewElement{
         this.text = text;
     }
 
-    @Override
-    public void accept(XmlVisitor xmlVisitor) {
 
+    @Override
+    public void accept(Visitor visitor) {
+       visitor.visit(this);
     }
 
     public String getId(){

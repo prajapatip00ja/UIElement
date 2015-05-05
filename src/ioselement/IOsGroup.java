@@ -27,10 +27,10 @@ public class IosGroup extends IosViewElement{
         return elements;
     }
 
-    @Override
-    public void accept(IosVisitor iosVisitor) {
-
-    }
+//    @Override
+//    public void accept(IosVisitor iosVisitor) {
+//
+//    }
 
     public String getId() {
         return id;

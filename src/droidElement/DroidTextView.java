@@ -1,6 +1,8 @@
 package droidelement;
 
-public class DroidTextView extends DroidViewElement{
+import droidelement.DroidViewElement;
+
+public class DroidTextView extends DroidViewElement {
     private  String id;
     private String text;
 
@@ -11,7 +13,7 @@ public class DroidTextView extends DroidViewElement{
 
     @Override
     public String toString() {
-        return super.toString() +" "+ text;
+        return id+" "+ text;
     }
 
     @Override

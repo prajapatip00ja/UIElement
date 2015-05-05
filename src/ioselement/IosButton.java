@@ -15,10 +15,10 @@ public class IosButton extends IosViewElement{
     }
 
 
-    @Override
-    public void accept(IosVisitor iosVisitor) {
-
-    }
+//    @Override
+//    public void accept(IosVisitor iosVisitor) {
+//
+//    }
 
     public String getId() {
         return id;

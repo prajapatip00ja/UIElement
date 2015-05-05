@@ -1,5 +1,7 @@
 package xmlelement;
 
+import droidelement.Visitor;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,7 +27,8 @@ public class XmlGroup extends XmlViewElement{
     }
 
     @Override
-    public void accept(XmlVisitor xmlVisitor) {
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
 
     }
 
@@ -37,6 +40,7 @@ public class XmlGroup extends XmlViewElement{
     public String getText() {
         return null;
     }
+
 
     public List<Object> getElements() {
         return elements;
