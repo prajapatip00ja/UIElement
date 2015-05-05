@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3afce860-8d10-4774-9afb-85a27143a705" name="Default" comment="changed droid class and added test for it.&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ioselement/IosButton.java" afterPath="$PROJECT_DIR$/src/ioselement/IosButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/ioselement/IosButtonTest.java" afterPath="$PROJECT_DIR$/Test/ioselement/IosButtonTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IosTransformer.java" afterPath="$PROJECT_DIR$/src/IosTransformer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/IosTransformerTest.java" afterPath="$PROJECT_DIR$/Test/IosTransformerTest.java" />
+    <list default="true" id="3afce860-8d10-4774-9afb-85a27143a705" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/droidelement/DroidButtonTest.java" afterPath="$PROJECT_DIR$/Test/droidelement/DroidButtonTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/droidelement/DroidTextViewTest.java" afterPath="$PROJECT_DIR$/Test/droidelement/DroidTextViewTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ioselement/TextField.java" afterPath="$PROJECT_DIR$/src/ioselement/TextField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/ioselement/TextFieldTest.java" afterPath="$PROJECT_DIR$/Test/ioselement/TextFieldTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spike.iws" />
@@ -100,30 +100,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IosButton.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ioselement/IosButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="29" selection-start="375" selection-end="375" vertical-scroll-proportion="0.55065554" vertical-offset="0" max-vertical-offset="839">
-              <folding>
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IosButtonTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/ioselement/IosButtonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IosTransformer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IosTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,7 +112,7 @@
       <file leaf-file-name="DroidButtonTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidButtonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="5" selection-start="134" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+            <state line="14" column="46" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,6 +125,48 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="33" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DroidTextViewTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidTextViewTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="54" selection-start="196" selection-end="196" vertical-scroll-proportion="0.21674877" vertical-offset="0" max-vertical-offset="812">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextField.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ioselement/TextField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="17" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextFieldTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/ioselement/TextFieldTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="5" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IosButtonTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/ioselement/IosButtonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="5" selection-start="130" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,14 +186,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/xmlelement/Group.java" />
         <option value="$PROJECT_DIR$/src/xmlelement/xmlGroup.java" />
-        <option value="$PROJECT_DIR$/Test/ioselement/TextFieldTest.java" />
         <option value="$PROJECT_DIR$/src/ioselement/EditText.java" />
         <option value="$PROJECT_DIR$/src/ioselement/Ios.java" />
         <option value="$PROJECT_DIR$/src/xmlelement/EditText.java" />
         <option value="$PROJECT_DIR$/src/xmlelement/Button.java" />
         <option value="$PROJECT_DIR$/src/xmlelement/Label.java" />
         <option value="$PROJECT_DIR$/src/ioselement/ButtonIo.java" />
-        <option value="$PROJECT_DIR$/src/ioselement/TextField.java" />
         <option value="$PROJECT_DIR$/src/xmlelement/XmlGroup.java" />
         <option value="$PROJECT_DIR$/src/ioselement/IOsGroup.java" />
         <option value="$PROJECT_DIR$/src/Try.java" />
@@ -207,16 +223,18 @@
         <option value="$PROJECT_DIR$/src/Transformer.java" />
         <option value="$PROJECT_DIR$/src/xmlelement/Xml.java" />
         <option value="$PROJECT_DIR$/src/droidelement/DroidButton.java" />
-        <option value="$PROJECT_DIR$/Test/droidelement/DroidButtonTest.java" />
         <option value="$PROJECT_DIR$/src/DroidTransformer.java" />
         <option value="$PROJECT_DIR$/Test/DroidTransformerTest.java" />
         <option value="$PROJECT_DIR$/src/droidelement/DroidTextView.java" />
-        <option value="$PROJECT_DIR$/Test/droidelement/DroidTextViewTest.java" />
         <option value="$PROJECT_DIR$/src/droidelement/DroidGroup.java" />
         <option value="$PROJECT_DIR$/src/ioselement/IosButton.java" />
         <option value="$PROJECT_DIR$/src/IosTransformer.java" />
         <option value="$PROJECT_DIR$/Test/IosTransformerTest.java" />
         <option value="$PROJECT_DIR$/Test/ioselement/IosButtonTest.java" />
+        <option value="$PROJECT_DIR$/src/ioselement/TextField.java" />
+        <option value="$PROJECT_DIR$/Test/ioselement/TextFieldTest.java" />
+        <option value="$PROJECT_DIR$/Test/droidelement/DroidButtonTest.java" />
+        <option value="$PROJECT_DIR$/Test/droidelement/DroidTextViewTest.java" />
       </list>
     </option>
   </component>
@@ -421,11 +439,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ioselement" />
       <recent name="droidelement" />
       <recent name="droidElement" />
       <recent name="iosElement" />
       <recent name="xmlElement" />
-      <recent name="ioselement" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -746,7 +764,11 @@
       <created>1430730842384</created>
       <updated>1430730842384</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changed iosbutton class and wrote test for iosbutton.">
+      <created>1430816716309</created>
+      <updated>1430816716309</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -832,7 +854,8 @@
     <MESSAGE value="package names changed to smaller case." />
     <MESSAGE value="created two different transformers for android and ios.&#10;created two different test files for those two transformers." />
     <MESSAGE value="changed droidButton class and wrote test for it." />
-    <option name="LAST_COMMIT_MESSAGE" value="changed droidButton class and wrote test for it." />
+    <MESSAGE value="changed iosbutton class and wrote test for iosbutton." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed iosbutton class and wrote test for iosbutton." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -846,17 +869,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/droidelement/DroidButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="399">
-          <folding>
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/droidelement/DroidTextView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="380">
@@ -1064,13 +1076,6 @@
         <state line="32" column="0" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="703" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ioselement/TextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xmlelement/Button.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="30" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="902">
@@ -1154,15 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidTextViewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="518" selection-end="518" vertical-scroll-proportion="0.48768473" vertical-offset="0" max-vertical-offset="812">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/droidelement/DroidTextView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="29" selection-start="386" selection-end="386" vertical-scroll-proportion="0.52443385" vertical-offset="0" max-vertical-offset="839">
@@ -1181,35 +1177,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidGroupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/droidelement/DroidGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="31" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
           <folding>
             <element signature="e#559#560#0" expanded="true" />
             <element signature="e#584#585#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ioselement/Ios.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidButtonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="134" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1228,15 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/ioselement/IosButtonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ioselement/IosButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="29" selection-start="375" selection-end="375" vertical-scroll-proportion="0.55065554" vertical-offset="0" max-vertical-offset="839">
@@ -1244,6 +1208,63 @@
             <element signature="e#318#319#0" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ioselement/Ios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ioselement/TextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/ioselement/IosButtonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="5" selection-start="130" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/ioselement/TextFieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidButtonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="46" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidGroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidTextViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="54" selection-start="196" selection-end="196" vertical-scroll-proportion="0.21674877" vertical-offset="0" max-vertical-offset="812">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

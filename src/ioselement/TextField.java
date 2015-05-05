@@ -1,12 +1,13 @@
 package ioselement;
 
 
-public class TextField extends Ios {
+public class TextField {
+    private String id;
     private String text;
 
 
     public TextField(String id,String text) {
-        super(id);
+        this.id = id;
         this.text = text;
     }
 
