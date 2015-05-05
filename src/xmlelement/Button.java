@@ -1,16 +1,17 @@
 package xmlelement;
 
-public class Button extends Xml {
+public class Button{
+    private String id;
     private String text;
 
     public Button(String id, String text) {
-        super(id);
+        this.id = id;
         this.text = text;
     }
 
     @Override
     public String toString() {
-        return super.toString()+" "+text;
+        return id+" "+text;
     }
 
     @Override
@@ -28,7 +29,7 @@ public class Button extends Xml {
     }
 
     public String getId() {
-        return super.toString();
+        return id;
     }
 
     public String getText() {

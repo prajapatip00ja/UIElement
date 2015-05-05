@@ -1,13 +1,3 @@
-import droidelement.DroidButton;
-import droidelement.DroidGroup;
-import droidelement.DroidTextView;
-import xmlelement.Button;
-import xmlelement.Label;
-import xmlelement.Xml;
-import xmlelement.XmlGroup;
-
-import java.util.List;
-
 //public class DroidTransformer {
 //
 //

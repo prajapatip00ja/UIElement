@@ -1,28 +1,26 @@
 package xmlelement;
 
-public class Label extends Xml {
+public class Label{
 
+    private String id;
     private String text;
 
     public Label(String id, String text) {
-        super(id);
+        this.id = id;
         this.text = text;
     }
 
     public String getId(){
-        return super.toString();
+        return id;
     }
 
     public String getText(){
         return text;
     }
-//    public String getText() {
-//        return text;
-//    }
 
     @Override
     public String toString() {
-        return super.toString()+" "+text;
+        return id+" "+text;
     }
 
     @Override

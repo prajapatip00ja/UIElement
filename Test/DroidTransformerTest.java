@@ -1,12 +1,3 @@
-import droidelement.DroidButton;
-import droidelement.DroidGroup;
-import droidelement.DroidTextView;
-import org.junit.Test;
-import xmlelement.Button;
-import xmlelement.Label;
-import xmlelement.Xml;
-import xmlelement.XmlGroup;
-
 import static junit.framework.Assert.assertEquals;
 
 /**

@@ -3,11 +3,12 @@ package xmlelement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class XmlGroup extends Xml{
+public class XmlGroup {
+    private String id;
     private List<Object> elements;
 
     public XmlGroup(String id){
-        super(id);
+        this.id = id;
         this.elements = new ArrayList<Object>();
     }
 
@@ -16,7 +17,7 @@ public class XmlGroup extends Xml{
     }
 
     public  String toString(){
-        String s = super.toString()+"\n";
+        String s = id+"\n";
         for (Object element : elements) {
             s = s+" "+element+"\n";
         }
@@ -24,7 +25,7 @@ public class XmlGroup extends Xml{
     }
 
     public String getId(){
-        return super.toString();
+        return id;
     }
 
     public List<Object> getElements() {
