@@ -32,6 +32,4 @@ public class IosGroupTest {
         assertEquals(iosGroup.toString(),"G1"+"\t"+"lb1 hello"+"\n");
     }
 
-
-
 }

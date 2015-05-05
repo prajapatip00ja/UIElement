@@ -3,11 +3,12 @@ package ioselement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IosGroup extends Ios{
+public class IosGroup {
+    private String id;
     private List<Object> elements;
 
     public IosGroup(String id){
-        super(id);
+        this.id = id;
         this.elements = new ArrayList<Object>();
     }
     public void addElement(Object element){
@@ -15,7 +16,7 @@ public class IosGroup extends Ios{
     }
 
     public  String toString(){
-        String result = super.toString()+"\t";
+        String result = id+"\t";
         for (Object element : elements) {
             result = result+""+element+"\n";
         }
@@ -27,6 +28,6 @@ public class IosGroup extends Ios{
     }
 
     public String getId() {
-        return super.toString();
+        return id;
     }
 }

@@ -1,14 +1,3 @@
-import ioselement.IosButton;
-import ioselement.Ios;
-import ioselement.IosGroup;
-import ioselement.TextField;
-import org.junit.Test;
-import xmlelement.Button;
-import xmlelement.Label;
-import xmlelement.Xml;
-import xmlelement.XmlGroup;
-
-
 import static junit.framework.Assert.assertEquals;
 
 //public class IosTransformerTest {

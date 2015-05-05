@@ -6,13 +6,13 @@ import static junit.framework.Assert.assertEquals;
 
 public class DroidTextViewTest {
     @Test
-    public void GetIdShouldGiveIdOfTheLabel(){
+    public void GetIdShouldGiveIdOfTheDroidTextView(){
         DroidTextView droidTextView= new DroidTextView("label1","Hello");
         assertEquals(droidTextView.getId(),"label1");
     }
 
     @Test
-    public void GetIdShouldGiveTextOfTheLabel(){
+    public void GetIdShouldGiveTextOfTheDroidTextView(){
         DroidTextView droidTextView= new DroidTextView("label1","Hello");
         assertEquals(droidTextView.getText(),"Hello");
     }

@@ -1,14 +1,3 @@
-import ioselement.Ios;
-import ioselement.IosButton;
-import ioselement.IosGroup;
-import ioselement.TextField;
-import xmlelement.Button;
-import xmlelement.Label;
-import xmlelement.Xml;
-import xmlelement.XmlGroup;
-
-import java.util.List;
-
 /**
  * Created by saylik on 04/05/15.
  */
