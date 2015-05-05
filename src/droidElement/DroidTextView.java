@@ -14,4 +14,11 @@ public class DroidTextView{
         return super.toString() +" "+ text;
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public String getText() {
+        return text;
+    }
 }
