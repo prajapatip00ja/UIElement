@@ -12,7 +12,4 @@ public class Xml {
         return  id;
     }
 
-    public String getId() {
-        return id;
-    }
 }

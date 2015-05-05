@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3afce860-8d10-4774-9afb-85a27143a705" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DroidTransformer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/DroidTransformerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IosTransformer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Transformer.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Test/TransformerTest.java" afterPath="$PROJECT_DIR$/Test/IosTransformerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DroidTransformer.java" afterPath="$PROJECT_DIR$/src/DroidTransformer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/DroidTransformerTest.java" afterPath="$PROJECT_DIR$/Test/DroidTransformerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xmlelement/Xml.java" afterPath="$PROJECT_DIR$/src/xmlelement/Xml.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -72,32 +69,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IosTransformerTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test/IosTransformerTest.java">
+      <file leaf-file-name="DroidGroup.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/droidelement/DroidGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1562">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IosTransformer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IosTransformer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="814">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IosGroupTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/ioselement/IosGroupTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="52" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="836">
+            <state line="6" column="12" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
               <folding />
             </state>
           </provider>
@@ -106,7 +81,7 @@
       <file leaf-file-name="DroidGroupTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidGroupTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="44" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+            <state line="21" column="9" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
@@ -115,16 +90,31 @@
       <file leaf-file-name="DroidTransformer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DroidTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
-              <folding />
+            <state line="29" column="0" selection-start="227" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DroidTransformerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/DroidTransformerTest.java">
+      <file leaf-file-name="DroidButton.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/droidelement/DroidButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.0" vertical-offset="1137" max-vertical-offset="1606">
+            <state line="21" column="29" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
+              <folding>
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DroidButtonTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidButtonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.47199047" vertical-offset="0" max-vertical-offset="839">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,11 +122,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Xml.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xmlelement/Xml.java">
+      <file leaf-file-name="DroidTransformerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/DroidTransformerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="204" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
-              <folding />
+            <state line="66" column="0" selection-start="2656" selection-end="2656" vertical-scroll-proportion="0.0" vertical-offset="755" max-vertical-offset="1386">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,10 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/xmlelement/LabelOnle.java" />
-        <option value="$PROJECT_DIR$/src/xmlelement/LabelOnly.java" />
-        <option value="$PROJECT_DIR$/src/xmlelement/HintOnly.java" />
-        <option value="$PROJECT_DIR$/src/ioselement/Button.java" />
         <option value="$PROJECT_DIR$/src/xmlelement/Cycle.java" />
         <option value="$PROJECT_DIR$/src/xmlelement/Bike.java" />
         <option value="$PROJECT_DIR$/src/androidElement/Transformer.java" />
@@ -199,19 +187,24 @@
         <option value="$PROJECT_DIR$/Test/TransformerTest.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/Test/ioselement/IosGroupTest.java" />
-        <option value="$PROJECT_DIR$/src/xmlelement/Xml.java" />
         <option value="$PROJECT_DIR$/src/Transformer.java" />
-        <option value="$PROJECT_DIR$/src/DroidTransformer.java" />
         <option value="$PROJECT_DIR$/src/IosTransformer.java" />
-        <option value="$PROJECT_DIR$/Test/DroidTransformerTest.java" />
         <option value="$PROJECT_DIR$/Test/IosTransformerTest.java" />
+        <option value="$PROJECT_DIR$/src/xmlelement/Xml.java" />
+        <option value="$PROJECT_DIR$/src/droidelement/DroidTextView.java" />
+        <option value="$PROJECT_DIR$/src/droidelement/DroidGroup.java" />
+        <option value="$PROJECT_DIR$/src/droidelement/DroidButton.java" />
+        <option value="$PROJECT_DIR$/Test/droidelement/DroidButtonTest.java" />
+        <option value="$PROJECT_DIR$/src/DroidTransformer.java" />
+        <option value="$PROJECT_DIR$/Test/DroidTransformerTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="610" />
+    <option name="x" value="6" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="940" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -239,7 +232,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -379,6 +371,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,64 +400,21 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="droidelement" />
       <recent name="droidElement" />
       <recent name="iosElement" />
       <recent name="xmlElement" />
       <recent name="ioselement" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="IosTransformerTest.transformMethodShouldTransformXmlGroupToDroidGroupWhichIsHavingAnotherGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UIElement" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IosTransformerTest" />
-      <option name="METHOD_NAME" value="transformMethodShouldTransformXmlGroupToDroidGroupWhichIsHavingAnotherGroup" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="IosTransformerTest.transformMethodShouldTransformXmlGroupToIosGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UIElement" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IosTransformerTest" />
-      <option name="METHOD_NAME" value="transformMethodShouldTransformXmlGroupToIosGroup" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.DroidButtonTest">
     <configuration default="false" name="IosTransformerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UIElement" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -531,6 +481,50 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="All in UIElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UIElement" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DroidButtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UIElement" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="droidelement" />
+      <option name="MAIN_CLASS_NAME" value="droidelement.DroidButtonTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -565,19 +559,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -603,6 +584,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -659,19 +653,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.IosTransformerTest.transformMethodShouldTransformXmlGroupToDroidGroupWhichIsHavingAnotherGroup" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.IosTransformerTest.transformMethodShouldTransformXmlGroupToIosGroup" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.IosTransformerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DroidTransformerTest.transformMethodShouldTransformXmlLabelToDroidTextView" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DroidTransformerTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.IosTransformerTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DroidTransformerTest.transformMethodShouldTransformXmlLabelToDroidTextView" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DroidTransformerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in UIElement" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DroidButtonTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.IosTransformerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DroidTransformerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DroidTransformerTest.transformMethodShouldTransformXmlLabelToDroidTextView" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.IosTransformerTest.transformMethodShouldTransformXmlGroupToIosGroup" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.IosTransformerTest.transformMethodShouldTransformXmlGroupToDroidGroupWhichIsHavingAnotherGroup" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DroidButtonTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in UIElement" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IosTransformerTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DroidTransformerTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DroidTransformerTest.transformMethodShouldTransformXmlLabelToDroidTextView" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -736,7 +730,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="610" extended-state="6" />
+    <frame x="6" y="23" width="1680" height="940" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -744,20 +738,20 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32347503" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32261768" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900944" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32532346" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3249139" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4232902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13035715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42250288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -780,13 +774,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.326062" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4232902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -815,7 +809,8 @@
     <MESSAGE value="package names are changed to smaller case." />
     <MESSAGE value="package names changed to smaller case." />
     <MESSAGE value="created two different transformers for android and ios.&#10;created two different test files for those two transformers." />
-    <option name="LAST_COMMIT_MESSAGE" value="created two different transformers for android and ios.&#10;created two different test files for those two transformers." />
+    <MESSAGE value="changed droidButton class and wrote test for it." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed droidButton class and wrote test for it." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -832,25 +827,23 @@
     <entry file="file://$PROJECT_DIR$/src/xmlelement/XmlGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="26" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="741">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/xmlelement/XmlGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="779">
-          <folding />
-        </state>
+        <state line="32" column="0" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="779" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/droidelement/DroidButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="36" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="399">
-          <folding />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -886,7 +879,9 @@
     <entry file="file://$PROJECT_DIR$/src/DroidTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="39" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="1292">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -894,8 +889,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="532">
           <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -927,11 +922,7 @@
     <entry file="file://$PROJECT_DIR$/src/xmlelement/XmlGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="45" selection-start="540" selection-end="586" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="760">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -972,11 +963,7 @@
     <entry file="file://$PROJECT_DIR$/src/xmlelement/XmlGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="513">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,45 +1039,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/xmlelement/XmlGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/droidelement/Droid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/droidelement/DroidTextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/droidelement/DroidGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <folding>
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="32" column="0" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="703" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ioselement/Ios.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="18" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/droidelement/DroidButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
           <folding />
         </state>
       </provider>
@@ -1129,32 +1083,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xmlelement/XmlGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ioselement/IosGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="16" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
           <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UIElement.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -1164,55 +1105,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/ioselement/IosGroupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="52" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidGroupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="44" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xmlelement/Xml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="204" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
+        <state line="13" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DroidTransformer.java">
+    <entry file="file://$PROJECT_DIR$/Test/ioselement/IosGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+        <state line="28" column="54" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/IosTransformerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xmlelement/XmlGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="5" selection-start="112" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/droidelement/DroidTextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="210" selection-end="210" vertical-scroll-proportion="0.27093595" vertical-offset="0" max-vertical-offset="812">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IosTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="814">
+        <state line="14" column="11" selection-start="289" selection-end="289" vertical-scroll-proportion="0.13110846" vertical-offset="0" max-vertical-offset="839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidGroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="9" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/droidelement/DroidGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/droidelement/DroidButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="29" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DroidTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="227" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/DroidTransformerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.0" vertical-offset="1137" max-vertical-offset="1606">
+        <state line="66" column="0" selection-start="2656" selection-end="2656" vertical-scroll-proportion="0.0" vertical-offset="755" max-vertical-offset="1386">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/IosTransformerTest.java">
+    <entry file="file://$PROJECT_DIR$/Test/droidelement/DroidButtonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1562">
+        <state line="18" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.47199047" vertical-offset="0" max-vertical-offset="839">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

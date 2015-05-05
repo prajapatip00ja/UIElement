@@ -1,15 +1,25 @@
 package droidelement;
 
-public class DroidButton extends Droid {
+public class DroidButton{
+
+    private String id;
     private String text;
 
     public DroidButton(String id, String text) {
-        super(id);
+        this.id = id;
         this.text = text;
     }
 
     @Override
     public String toString() {
-        return  super.toString() +" "+ text;
+        return  id+" "+ text;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getText() {
+        return text;
     }
 }

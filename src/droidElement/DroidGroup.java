@@ -3,11 +3,12 @@ package droidelement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DroidGroup extends Droid {
+public class DroidGroup{
+    private String id;
     private List<Object> elements;
 
     public DroidGroup(String id){
-        super(id);
+        this.id = id;
         this.elements = new ArrayList<Object>();
     }
 
