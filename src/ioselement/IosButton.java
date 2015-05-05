@@ -1,10 +1,11 @@
 package ioselement;
 
-public class IosButton extends Ios {
+public class IosButton {
+    private String id;
     private String text;
 
     public IosButton(String id, String text) {
-        super(id);
+        this.id = id;
         this.text = text;
     }
 
@@ -14,4 +15,11 @@ public class IosButton extends Ios {
     }
 
 
+    public String getId() {
+        return id;
+    }
+
+    public String getText() {
+        return text;
+    }
 }
