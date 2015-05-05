@@ -16,5 +16,5 @@ public class DroidTextViewTest {
         DroidTextView droidTextView= new DroidTextView("label1","Hello");
         assertEquals(droidTextView.getText(),"Hello");
     }
-    
+
 }

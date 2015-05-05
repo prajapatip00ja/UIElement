@@ -17,7 +17,7 @@ public class DroidGroup{
     }
     @Override
     public  String toString(){
-        String s = super.toString()+"\t";
+        String s = id+"\t";
         for (Object element : elements) {
             s = s+element+"\n";
         }
@@ -25,7 +25,7 @@ public class DroidGroup{
     }
 
     public String getId(){
-        return super.toString();
+        return id;
     }
 
     public List<Object> getElements() {
