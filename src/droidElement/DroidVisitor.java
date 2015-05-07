@@ -8,7 +8,6 @@ import java.util.List;
 
 public class DroidVisitor extends Visitor {
     private DroidViewElement viewElement1;
-    private DroidViewElement viewElement2;
 
     @Override
     public void visit(Label label) {
@@ -27,13 +26,11 @@ public class DroidVisitor extends Visitor {
 
     @Override
     public void visit(XmlGroup group) {
-        viewElement2 = new DroidGroup(group.getId());
+        DroidViewElement viewElement2 = new DroidGroup(group.getId());
         List<Object> elements = group.getElements();
         for (Object element : elements) {
             ((XmlViewElement)element).accept(this);
-            if(viewElement2 instanceof DroidGroup){
-                ((DroidGroup)viewElement2).addElement(this.getElement());
-            }
+            ((DroidGroup)viewElement2).addElement(this.getElement());
         }
         viewElement1 = viewElement2;
     }

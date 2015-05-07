@@ -1,9 +1,9 @@
 import xmlelement.*;
 import droidelement.*;
 
-public class Transformer {
+public class DroidTransformer {
     private Visitor visitor;
-    public Transformer(Visitor visitor) {
+    public DroidTransformer(Visitor visitor) {
         this.visitor = visitor;
     }
 
